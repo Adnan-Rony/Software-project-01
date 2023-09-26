@@ -37,9 +37,10 @@ const Blog = () => {
               </div>
               <div>
                 <div className="card h-[512px]  bg-base-100 shadow-xl">
-                  <figure><img src="https://i.ibb.co/Ld8DpRD/205970-175.jpg" alt="Shoes" /></figure>
+                  <figure><img src="https://i.ibb.co/rchfF3C/startup-3267505-1280.webp" alt="Shoes" /></figure>
                   <div className="card-body">
-                    <h2 className="text-center font-bold text-2xl">International Conference</h2>
+                    <h2 className="text-center font-bold text-2xl">10 Strategies For Success In The Corporate Environment
+</h2>
                   <div className="flex justify-between items-center">
                     <div className="flex items-center gap-3">
                      
@@ -51,9 +52,13 @@ const Blog = () => {
 
                     </div>
                   </div>
-                    <p>Street Food Convention will showcase products like Packed food, beef and lamb, street food.</p>
+                    <p>In the corporate world, maintaining a professional appearance is crucial. Whether you’re dealing with clients, lawyers, or corporate managers, dressing impeccably is a sign of respect and organizational prowess.</p>
                     <div className="card-actions justify-center">
-                    <button className="btn text-white hover:bg-blue-500 rounded-full text-3xl bg-black">see more</button>
+                    <a href="https://blog.daffodilvarsity.edu.bd/10-strategies-for-success-in-the-corporate-environment/
+                    ">
+
+<button className="btn text-white hover:bg-blue-500 rounded-full text-3xl bg-black">see more</button>
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -61,9 +66,9 @@ const Blog = () => {
               </div>
               <div>
                 <div className="card h-[512px] bg-base-100 shadow-xl">
-                  <figure><img src="https://i.ibb.co/hg8rzwb/19-jpg.webp" alt="Shoes" /></figure>
+                  <figure><img src="https://i.ibb.co/r5vYdQn/Networking-as-Your-Trump-Card.webp" alt="Shoes" /></figure>
                   <div className="card-body">
-                    <h2 className="text-center font-bold text-2xl">Daffodil Conference</h2>
+                    <h2 className="text-center font-bold text-2xl">Networking As Your Trump Card: Unlocking Opportunities And Success</h2>
                   <div className="flex justify-between items-center">
                     <div className="flex items-center gap-3">
                      
@@ -75,9 +80,13 @@ const Blog = () => {
 
                     </div>
                   </div>
-                    <p>Street Food Convention will showcase products like Packed food, beef and lamb, street food.</p>
+                    <p>In today’s fast-paced and highly competitive world, success often hinges on more than just talent and hard work. While these qualities are undoubtedly essential, there’s another invaluable asset that can elevate your career.</p>
                     <div className="card-actions justify-center">
+                    
+                    <a href="https://blog.daffodilvarsity.edu.bd/networking-as-your-trump-card-unlocking-opportunities-and-success/">
                     <button className="btn text-white hover:bg-blue-500 rounded-full text-3xl bg-black">see more</button>
+
+                    </a>
                     </div>
                   </div>
                 </div>
