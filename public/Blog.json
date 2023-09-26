@@ -1,0 +1,43 @@
+[    {
+    "id": 1,
+    "blogTitle": "The Future of AI in Healthcare",
+    "blogDescription": "Exploring the impact of artificial intelligence on the healthcare industry.",
+    "blogImage": "https://i.ibb.co/y40dNZ3/1674804156674.png",
+    "blogNewsLink": "https://example.com/ai-healthcare-news"
+  },
+  {
+    "id": 2,
+    "blogTitle": "Blockchain Technology and Its Role in Supply Chains",
+    "blogDescription": "A deep dive into how blockchain is revolutionizing supply chain management.",
+    "blogImage": "https://i.ibb.co/bWmsyTB/Why-Blockchain-is-the-Solution-to-Shortfalls-in-Supply-Chain-Finance.jpg",
+    "blogNewsLink": "https://example.com/blockchain-supply-chain-news"
+  },
+  {
+    "id": 3,
+    "blogTitle": "The Rise of Virtual Reality: A Look into VR Gaming",
+    "blogDescription": "Exploring the latest developments in virtual reality gaming.",
+    "blogImage": "https://i.ibb.co/Rywr5cb/cover-vr-games-augmented-reality-players-are-ready-high-quality-photo-1.webp",
+    "blogNewsLink": "https://example.com/vr-gaming-news"
+  },
+    {
+      "id": 4,
+      "blogTitle": "Artificial Intelligence in Finance: Transforming Banking",
+      "blogDescription": "How AI is reshaping the financial industry and banking services.",
+      "blogImage": "https://i.ibb.co/hMzjrMy/AI-Fintech.jpg",
+      "blogNewsLink": "https://example.com/ai-finance-news"
+    },
+    {
+      "id": 5,
+      "blogTitle": "Smart Cities: Building the Urban Future",
+      "blogDescription": "Exploring the concept of smart cities and their impact on urban life.",
+      "blogImage": "https://i.ibb.co/tH6DwN4/650475ca4c59e.jpg",
+      "blogNewsLink": "https://example.com/smart-cities-news"
+    },
+    {
+      "id": 6,
+      "blogTitle": "The Internet of Things (IoT) Revolution",
+      "blogDescription": "Discovering how IoT technology is transforming industries and daily life.",
+      "blogImage": "https://i.ibb.co/k958SNh/IOFIN-1686326973015.webp",
+      "blogNewsLink": "https://example.com/iot-revolution-news"
+    }
+  ]

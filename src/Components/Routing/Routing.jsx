@@ -10,6 +10,8 @@ import Schedule from '../Schedule/Schedule';
 import SchedulePlandetails from '../SchedulePlandetails/SchedulePlandetails';
 import Contactus from '../Contactus/Contactus';
 import Blog from '../Blog/Blog';
+import Sponser from '../Sponser/Sponser';
+import Ticket from '../Ticket/Ticket';
 
 const createrouting =createBrowserRouter([
                         {
@@ -54,7 +56,16 @@ const createrouting =createBrowserRouter([
                                 },
                                 {
                                     path:"/blog",
-                                    element:<Blog></Blog>
+                                    element:<Blog></Blog>,
+                                    loader:()=>fetch('Blog.json')
+                                },
+                                {
+                                    path:"/Sponser",
+                                    element:<Sponser></Sponser>
+                                },
+                                {
+                                    path:"ticket",
+                                    element:<Ticket></Ticket>
                                 }
                             ]
                         }

@@ -21,15 +21,7 @@ const Navber = () => {
                                 Home
                                 </NavLink>
 
-                                <NavLink
-                                to="/speakersdetails"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl" : ""
-                                }
-                                >
-                               Speakers Details
-                                </NavLink>
-
+                               
 
                                 <NavLink
                                 to="/blog"
@@ -41,6 +33,14 @@ const Navber = () => {
                               
                                 </NavLink>
 
+                                <NavLink
+                                to="/Sponser"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl" : ""
+                                }
+                                >
+                               Sponser
+                                </NavLink>
 
                                 <NavLink
                                 to="/contactus"
@@ -53,14 +53,17 @@ const Navber = () => {
                                 </NavLink>
 
                                 <NavLink
-                                to="/SchedulePlan"
+                                to="/ticket"
                                 className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl" : ""
+                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl " : ""
                                 }
                                 >
                             
-                              Schedule Plan
+                              Ticket
                                 </NavLink>
+                               
+
+                               
 
                             
                     </ul>

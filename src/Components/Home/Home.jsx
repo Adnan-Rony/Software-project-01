@@ -58,7 +58,7 @@ const Home = () => {
           <Ticket></Ticket>
          
           <Contactus></Contactus>
-          <Blog></Blog>
+          
           
             
 
