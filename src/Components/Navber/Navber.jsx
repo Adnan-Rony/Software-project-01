@@ -29,7 +29,7 @@ const Navber = () => {
                                     isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl" : ""
                                 }
                                 >
-                           Blog
+                           Upcomming Event
                               
                                 </NavLink>
 

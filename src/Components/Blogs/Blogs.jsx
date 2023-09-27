@@ -26,7 +26,9 @@ const Blogs = ({blog}) => {
                   </div>
                     <p>{blogDescription}</p>
                     <div className="card-actions justify-center">
+                      <a href={blogNewsLink}>
                       <button className="btn text-white hover:bg-blue-500 rounded-full text-3xl bg-black">see more</button>
+                      </a>
                     </div>
                   </div>
                 </div>

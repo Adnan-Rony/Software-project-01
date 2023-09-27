@@ -8,8 +8,8 @@ const Blog = () => {
     return (
         <div className=' container mx-auto pt-8 pb-10'>
           <div className="space-y-4">
-              <h1 className="text-3xl font font-semibold text-center text-white">OUR BLOG</h1>
-              <h1 className="text-5xl font font-semibold text-center text-white">LATEST NEWS</h1>
+              <h1 className="text-5xl font font-semibold text-center text-white">Upcomming Event</h1>
+            
 
             </div>
         
