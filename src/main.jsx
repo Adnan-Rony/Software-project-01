@@ -5,8 +5,10 @@ import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import createrouting from './Components/Routing/Routing'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={createrouting}></RouterProvider>
+
+  <RouterProvider router={createrouting}></RouterProvider>
   </React.StrictMode>,
 )

@@ -7,7 +7,7 @@ const MainLayout = () => {
     return (
         <div className=''>
             <Navber></Navber>
-            <section className='bg-gradient-to-r from-[#191E24] to-[#353F4A]'>
+            <section className='bg-black'>
             <Outlet></Outlet>
             </section>
 
