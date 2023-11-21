@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "SpeakerName": "Md. Sabur Khan",
+      "ConferencePlace": "Sydney",
+      "Topic": "Environmental Sustainability",
+      "Date": "2023-11-08",
+      "Profession": "AI Researcher",
+      "Country": "Bangladesh",
+      "Image": "https://i.ibb.co/bg2trc4/download.jpg",
+      "Email": "mdsaburkhan987@email.com",
+      "FacebookLink": "https://www.facebook.com/sabur.khan"
+    },
+    {
+    "id": 2,
+    "SpeakerName": "Mr. Md. Ashraful Islam Talukder",
+    "ConferencePlace": "Dhaka university",
+    "Topic": "Blockchain Technology",
+    "Date": "2023-11-02",
+    "Profession": "AI Researcher",
+    "Country": "Bangladesh",
+    "Image": "https://i.ibb.co/FmtCByd/1601481605094.jpg",
+    "Email": "ashrafulislam.cse@diu.edu.bd",
+    "FacebookLink": "https://www.facebook.com/ash.talukder"
+    },
+    {
+      "id": 3,
+      "SpeakerName": "Ms. Sharun Akter Khushbu",
+      "ConferencePlace": "AIUB",
+      "Topic": "Blockchain Technology",
+      "Profession": "AI Researcher",
+      "Country": "Bangladesh",
+      "Date": "2023-11-02",
+      "Image": "https://i.ibb.co/3NjMFBN/7cf5abf6b8660e39f203629bbb8414a8.jpg",
+      "Email": "sharun.cse@diu.edu.bd",
+      "FacebookLink": "https://www.facebook.com/ash.talukder"
+    },
+    {
+      "id": 4,
+      "SpeakerName": "Touhid-Bhuiyan",
+      "ConferencePlace": "San Francisco",
+      "Topic": "Blockchain Technology",
+      "Profession": "AI Researcher",
+      "Country": "Bangladesh",
+      "Date": "2023-11-02",
+      "Image": "https://i.ibb.co/dJ0svwx/Touhid-Bhuiyan.jpg",
+      "Email": "alice.johnson@email.com",
+      "FacebookLink": "https://www.facebook.com/alice.johnson"
+    },
+    {
+    "id": 5,
+    "SpeakerName": "Ms Mahinur Akther",
+    "ConferencePlace": "London",
+    "Topic": "Data Privacy",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Date": "2023-09-28",
+    "Image": "https://i.ibb.co/5MhdSkj/344896278-899340394662219-4616525839475574503-n.jpg",
+    "Email": "mahinurakther.eng@diu.edu.bd",
+    "FacebookLink": "https://www.facebook.com/mahisthetic"
+    },
+    {
+    "id": 6,
+    "SpeakerName": "Dr. Syed Mizanur Rahman ",
+    "ConferencePlace": "Tokyo",
+    "Topic": "",
+    "Date": "2023-12-10",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Image": "https://i.ibb.co/rxq4Sf8/640px-Syed-Mizanur-Rahman-Raju.jpg",
+    "Email": "raju@daffodilvarsity.edu.bd",
+    "FacebookLink": "https://www.facebook.com/treeraju"
+    },
+    {
+    "id": 7,
+    "SpeakerName": "Afroza Akter",
+    "ConferencePlace": "Los Angeles",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Topic": "Sustainable Energy",
+    "Date": "2023-10-18",
+    "Image": "https://i.ibb.co/1XrXwbt/a437d27a4ad3831c8391230d4faced9c.png",
+    "Email": "afrozaakter.eng@diu.edu.bd",
+    "FacebookLink": "https://www.facebook.com/profile.php?id=100039847909656"
+    },
+    {
+    "id": 8,
+    "SpeakerName": "Mr. Emran Khan ",
+    "ConferencePlace": "Chicago",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Topic": "Cybersecurity",
+    "Date": "2023-11-30",
+    "Image": "https://i.ibb.co/mJN9tKZ/9828c85ce448d6e04a2b71f81fdc1169.png",
+    "Email": "lemrankhan.eng@diu.edu.bd",
+    "FacebookLink": "https://www.facebook.com/emran.khan9152"
+    },
+    {
+    "id": 9,
+    "SpeakerName": "Mr. Amit Chakraborty",
+    "ConferencePlace": "Paris",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Topic": "Climate Change",
+    "Date": "2023-09-15",
+    "Image": "https://i.ibb.co/Y0h6FW1/download.jpg",
+    "Email": "amit.cse@diu.edu.bd",
+    "FacebookLink": "https://www.facebook.com/champboy.amit"
+    },
+    {
+    "id": 10,
+    "SpeakerName": "Nushrat Jahan Ria",
+    "ConferencePlace": "Sydney",
+    "Topic": "Space Exploration",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Date": "2023-12-05",
+    "Image": "https://i.ibb.co/KyNddxV/1669304903522.jpg",
+    "Email": "nushratria.cse@diu.edu.bd",
+    "FacebookLink": "https://www.facebook.com/Nushrat.j.ria"
+    },
+    {
+    "id":11,
+    "SpeakerName": "Ms. Faria Nishat Khan",
+    "ConferencePlace": "Berlin",
+    "Topic": "Augmented Reality",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Date": "2023-10-22",
+    "Image": "https://i.ibb.co/mTBYsJ5/download-1.jpg",
+    "Email": "farianishat.cse@diu.edu.bd",
+    "FacebookLink": "https://www.facebook.com/meshoshikhan"
+    },
+    {
+    "id": 12,
+    "SpeakerName": "Nafiur Rahman Sabbir",
+    "ConferencePlace": "Seoul",
+    "Profession": "AI Researcher",
+    "Country": "USA",
+    "Topic": "5G Technology",
+    "Date": "2023-11-12",
+    "Image": "https://i.ibb.co/Prbv2wJ/photo-2023-09-26-01-30-02.jpg",
+    "Email": "nafiurrahmansabbir@email.com",
+    "FacebookLink": "https://www.facebook.com/profile.php?id=100008752005151"
+    }
+    ]
+    

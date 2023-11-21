@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Speker = () => {
-   
+const UseEffect = () => {
     return (
         <div>
-         
+            
         </div>
     );
 };
 
-export default Speker;
+export default UseEffect;

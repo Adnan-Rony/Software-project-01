@@ -2,7 +2,7 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import MainLayout from '../MainLayout/MainLayout';
 import Home from '../Home/Home';
-import Speakers from '../Speakers/Speakers';
+
 import SchedulePlan from '../SchedulePlan/SchedulePlan';
 import Speakersdetails from '../Speakersdetails/Speakersdetails';
 import Details from '../Details/Details';
@@ -12,6 +12,8 @@ import Contactus from '../Contactus/Contactus';
 import Blog from '../Blog/Blog';
 import Sponser from '../Sponser/Sponser';
 import Ticket from '../Ticket/Ticket';
+import Login from '../Login/Login';
+import Registation from '../Registation/Registation';
 
 const createrouting =createBrowserRouter([
                         {
@@ -57,7 +59,7 @@ const createrouting =createBrowserRouter([
                                 {
                                     path:"/blog",
                                     element:<Blog></Blog>,
-                                    loader:()=>fetch('Blog.json')
+                                    // loader:()=>fetch('Blog.json')
                                 },
                                 {
                                     path:"/Sponser",
@@ -66,6 +68,14 @@ const createrouting =createBrowserRouter([
                                 {
                                     path:"ticket",
                                     element:<Ticket></Ticket>
+                                },
+                                {
+                                    path:"/login",
+                                    element:<Login></Login>
+                                },
+                                {
+                                    path:"/registation",
+                                    element:<Registation></Registation>
                                 }
                             ]
                         }

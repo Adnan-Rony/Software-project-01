@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 
 const Navber = () => {
+
+  const { user, logout, } = useContext(AuthContext)
+
+  const handleesignOut = () => {
+    logout()
+
+  }
 
   const navItems = <>
 
     <NavLink
       to="/"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "btn btn-ghost text-[#FF444A] text-xl " : ""
+        isPending ? "pending" : isActive ? "btn btn-sm text-[#FF444A]  " : ""
       }
     >
       Home
@@ -20,7 +28,7 @@ const Navber = () => {
     <NavLink
       to="/blog"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "btn btn-ghost text-[#FF444A] text-xl" : ""
+        isPending ? "pending" : isActive ? "btn btn-sm text-[#FF444A] " : ""
       }
     >
       Upcomming Event
@@ -30,16 +38,16 @@ const Navber = () => {
     <NavLink
       to="/Sponser"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "btn btn-ghost text-[#FF444A] text-xl" : ""
+        isPending ? "pending" : isActive ? "btn btn-sm text-[#FF444A] " : ""
       }
     >
       Sponser
     </NavLink>
 
     <NavLink
-      to="/contactus"
+      to="/login"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "btn btn-ghost text-[#FF444A] text-xl" : ""
+        isPending ? "pending" : isActive ? "btn btn-sm text-[#FF444A] " : ""
       }
     >
       Contact Us
@@ -49,7 +57,7 @@ const Navber = () => {
     <NavLink
       to="/ticket"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "btn btn-ghost text-[#FF444A] text-xl " : ""
+        isPending ? "pending" : isActive ? "btn btn-sm text-[#FF444A]  " : ""
       }
     >
 
@@ -79,85 +87,12 @@ const Navber = () => {
 
   return (
     <div>
-      {/* <div className='shadow-lg p-4 text-white  bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700'>
-            <div className='lg:flex flex-row lg:justify-between justify-center gap-4 lg:items-center mx-12'>
-                <div>
-                   <Link to="/">
-                   <img className='w-30 h-20 rounded-full' src="https://i.ibb.co/XpqL1kr/64144173.jpg" alt="" />
-                   </Link>
-                </div>
-                <div>
-                    <ul className='flex gap-5 text-2xl'>
-                    <NavLink 
-                                to="/"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl " : "" 
-                                }
-                                >
-                                Home
-                                </NavLink>
-
-                               
-
-                                <NavLink
-                                to="/blog"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl" : ""
-                                }
-                                >
-                           Upcomming Event
-                              
-                                </NavLink>
-
-                                <NavLink
-                                to="/Sponser"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl" : ""
-                                }
-                                >
-                               Sponser
-                                </NavLink>
-
-                                <NavLink
-                                to="/contactus"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl" : ""
-                                }
-                                >
-                            Contact Us
-                              
-                                </NavLink>
-
-                                <NavLink
-                                to="/ticket"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#FF444A] text-2xl " : ""
-                                }
-                                >
-                            
-                              Ticket
-                                </NavLink>
-                               
-
-                               
-
-                            
-                    </ul>
-                </div>
-
-            </div>
-
-                
 
 
 
 
-        </div> */}
 
-
-
-
-      <div className="navbar bg-[#171717] h-12  text-white">
+      <div className="navbar bg-[#171717] h-12 text-xl text-white fixed z-10 bg-opacity-30 ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -181,11 +116,24 @@ const Navber = () => {
 
 
 
-        <div className="navbar-end">
+        <div className="navbar-end gap-3">
           <div>
+            {
+              user &&
+              <img className='lg:w-14 w-9 rounded-full' src={user.photoURL} alt="" />
+            }
 
           </div>
-          <button className="btn btn-outline btn-">Appointment</button>
+
+          {
+            user ?
+              <button onClick={handleesignOut} className='lg:btn btn-sm btn'>SIGN OUT</button>
+              :
+              <Link to="/login">
+                <button className='lg:btn btn-sm btn'>LOGIN</button>
+              </Link>
+          }
+
         </div>
       </div>
 

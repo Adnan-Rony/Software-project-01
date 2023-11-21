@@ -3,10 +3,55 @@
 
 // import { AuthContext } from '../Auntication';
 
-import { Link } from "react-router-dom";
-
+import { useContext } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
+import toast from 'react-hot-toast';
 const Login = () => {
+    const {signIn,user,googleLogin}=useContext(AuthContext)
+    const location =useLocation()
+    const navigate=useNavigate()
 
+    const handlelogin=event=>{
+
+
+        event.preventDefault();
+    
+        const email=event.target.email.value;
+        const password=event.target.password.value
+        console.log(email,password);
+    
+    
+        signIn(email,password)
+    
+    
+    
+        .then(result =>{
+          console.log(result);
+          //navigate after login
+          navigate(location ?.state ? location.state :'/')
+          toast.success('Login successfully')
+          
+        })
+        .catch(error =>{
+          console.error(error);
+          // setregistererror(error.message)
+          toast.error(error.message);
+          
+        })
+        }
+
+        const handlegoogle=()=>{
+
+            googleLogin()
+           .then(res=>{
+            console.log(res);
+           })
+           .catch(error=>{
+            console.log(error);
+           })
+      
+        };
    
 
 
@@ -20,7 +65,7 @@ const Login = () => {
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#171717] ">
                         <div className="card-body">
                             {/* <form onSubmit={handlelogin} > */}
-                            <form>
+                            <form onSubmit={handlelogin}>
                                 <div className="form-control">
                                     <h1 className='text-3xl font-bold mb-5 text-red-700'>Login your account</h1>
                                     <label className="label">
@@ -45,9 +90,14 @@ const Login = () => {
                                 <button className='btn btn-link text-red-700'>Register</button>
 
                             </Link> </p>
-                            <button   className='btn text-black  hover:bg-red-700 hover:text-white '>
+
+                            
+                           
+                           <button onClick={handlegoogle}  className='btn w-full text-black  hover:bg-red-700 hover:text-white '>
                                 Google 
                             </button>
+                           
+                            
                         </div>
                     </div>
 

@@ -2,6 +2,13 @@ import React from 'react';
 
 const Blogs = ({blog}) => {
     const {blogTitle,id,blogDescription,blogImage,blogNewsLink}=blog
+
+    const words = blogDescription.split(' ');
+
+    // Select the first 10 words and join them back together
+    const truncatedDescription = words.slice(0, 13).join(' ');
+
+
     return (
         <div>
                  <div className="container mx-auto pt-20">
@@ -24,19 +31,24 @@ const Blogs = ({blog}) => {
 
                     </div>
                   </div>
-                    <p>{blogDescription}</p>
+                    <p>{truncatedDescription}</p>
                     <div className="card-actions justify-center">
                       <a href={blogNewsLink}>
-                      <button className="btn text-white hover:bg-blue-500 rounded-full text-3xl bg-black">see more</button>
+                      <button className="btn btn-ghost text-white  text-3xl bg-black w-full">Details</button>
                       </a>
                     </div>
                   </div>
                 </div>
+                
 
               </div>
            
+           
 
             </div>
+
+
+            
           </div>
         </div>
     );
